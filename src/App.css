@@ -1,7 +1,9 @@
 .App {
   text-align: center;
 }
-
+body {
+  background: linear-gradient(90deg, #efd5ff 0%, #515ada 100%);
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +37,21 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.bg-login-image {
+  background: url(https://source.unsplash.com/K4mSJ7kc0As/600x800);
+  background-position: center;
+  background-size: cover;
+}
+
+.bg-register-image {
+  background: url(https://source.unsplash.com/Mv9hjnEUHR4/600x800);
+  background-position: center;
+  background-size: cover;
+}
+.bg-password-image {
+  background: url(https://source.unsplash.com/oWTW-jNGl9I/600x800);
+  background-position: center;
+  background-size: cover;
 }

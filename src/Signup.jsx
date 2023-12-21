@@ -13,7 +13,7 @@ const Signup = () => {
     },
     onSubmit: async (values,formikbag) => {
       try {
-        await axios.post("http://localhost:4050", values);
+        await axios.post("https://node-4-s2zu.onrender.com/login", values);
         alert("user created");
         formikbag.resetForm();
       } catch (error) {

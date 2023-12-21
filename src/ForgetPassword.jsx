@@ -10,7 +10,7 @@ const Forgetpassword = () => {
     },
     onSubmit: async (values,formikbag) => {
       try {
-        await axios.post("http://localhost:4050/forget-password", values);
+        await axios.post("https://node-4-s2zu.onrender.com/forget-password", values);
         alert('check your email')
         formikbag.resetForm();
       } catch (error) {
